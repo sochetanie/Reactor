@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Jumbotron {
+  background-image: url('./images/banner.png'); 
+  color: #ffffff;
+  text-align: center;
+  height: 550px;
+  background-size: cover;
+  padding: 0;
+}
+
+.Jumbotron h1 {
+  margin-top: 10%;
+}
+
+.navbar {
+  background-color: transparent !important;
+  width: auto;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.cities-phrase {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container-what {
+  height: 330px;
+  background-color: #f4fdf4;
+  padding: 2%;
+}
+
+.container-what img {
+  margin-top: 13%; 
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.container-what h3 {
+  margin-top: 13%; 
+  font-weight: bold;
+}
+
+.container-what h3, p, .weDo {
+  text-align: left;
+}
+
+.redWhatWeDo h1 {
+  padding-top: 7%;
+  color: #e43c4b;
+}
+
+.thead {
+  color: #e43c4b;
+  margin-bottom: 5%;
+}
+
+.thead h2 {
+  padding: 2% 0 2% 0;
+}
+
+.footer {
+  background-color: #1e3656;
+  min-height: 150px;
+}
+
+.footer p {
+  color: #ffffff;
+  margin-top: 2%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.cities .row {
+  margin: 0 5% 4% 5%
+}
+
+.cities-phrase h4 {
+  color: black;
+  margin: 3% 0 3% 0;
+  font-weight: bold;
+}
+
+.login-container {
+  background-image: url('./images/onboarding-bg.png');
+  background-size: cover;
+  min-height: 700px;
+}
+
+.form-group {
+  padding-top: 20%;
+  padding-bottom: 30%;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.btn-round-lg {
+  border-radius: 18px !important;
+  margin-left: -2%;
+  width: 100px;
+  background-color: #1e3656 !important;
+}
+
+button:focus, input:focus {
+  outline:0 !important;
+}
+
+.btn-round-lg, .news {
+  height: 45px !important;
+}
+
+.news {
+  width: 300px;
+  outline: none;
+  margin-bottom: 2%;
+}
+
+.form-control.pass {
+  background: url('./images/ic-password.png');
+  background-repeat: no-repeat;
+}
+
+.form-control.email {
+  background: url('./images/ic-email.png');
+  background-repeat: no-repeat;
+}
+
+.form-control.user {
+  background: url('./images/ic-username.png');
+  background-repeat: no-repeat;
+  margin-top: 6%;
+}
+
+.form-control.btn {
+  background-color: #e43c4b;
+  color: #ffffff;
+  margin-top: 7%;
+}
+
+.form-control {
+  border: 0px solid;
+  width: 330px;
+  height: 53px;
+  border-radius: 25px !important;
+}
+
+input.form-control {
+  background-color: rgba(0, 0, 0, .12) !important;
+  margin-bottom: 3%;
+  border: none !important;
+  padding-left: 65px !important;
+  color: white;
+}
+
+#signUpLoginTable h3 {
+  display: inline-flex !important;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#signUpLoginTable h3:nth-child(1) {
+  margin-right: 10%;
+}
+
+.active-tap {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+small {
+  color: grey;
+}
+
+.login {
+  background-image: url('./images/onboarding-bg.png');
+  background-size: cover;
+  min-height: 850px;
+}
+
+.login-center {
+  padding: 15% 0 0 0;
+}
+
+.container.whatWeDo {
+  padding: 6% 0 6% 0;
+}
+
+.transparent-inputs {
+  display: inline-flex;
+  margin-bottom: 1%;
+}
+
+.reactorSpan {
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 1% 0 0 4%;
+}
+
+.col-lg-3 img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
